@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+}
+footer{
+  background: black;
+  position: fixed;
+  bottom:0;
+  width:100%;
+  padding:40px 50px 50px 50px;
+}
+.content{
+  line-height: 30px;
+  display:flex;
+  gap:90px;  
+}
+
+h2,a ,p{
+  color:#fff;
+}
+h2 {
+  padding-bottom:20px;
+}
+a{
+   text-decoration: none;
+   font-size: 20px;
+}
+a:hover{
+  color:red;
+}
+p{
+  text-align: center;
+  padding-top:50px;
+}
